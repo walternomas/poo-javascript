@@ -65,5 +65,3 @@ const miguelito = new Student2({
   ]
 });
 
-miguelito.aprobarCurso("Curso de Tableau");
-
