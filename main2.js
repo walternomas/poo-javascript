@@ -30,3 +30,13 @@ Object.keys(juan);
 Object.getOwnPropertyNames(juan);
 Object.entries(juan);
 
+Object.entries(juan)[3][1].bind(juan)("curso 2");
+
+Object.getOwnPropertyDescriptors(juan);
+Object.defineProperty(juan, "pruebaNASA", {
+  value: "extraterrestres", 
+  enumerable: true, 
+  writable: true,
+  configurable: true
+});
+
